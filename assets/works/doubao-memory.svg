@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="960" viewBox="0 0 1400 960" role="img" aria-labelledby="title desc">
+<title id="title">Memory · 字节跳动 · 豆包电商</title><desc id="desc">让购物回答结合用户信息，给出明确建议。产品机制示意。</desc>
+<defs>
+  <filter id="grain"><feTurbulence type="fractalNoise" baseFrequency=".72" numOctaves="3" stitchTiles="stitch"/><feColorMatrix type="saturate" values="0"/></filter>
+  <marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto" markerUnits="userSpaceOnUse"><path d="M1 1L8 5L1 9" fill="none" stroke="#536e85" stroke-width="1.5"/></marker>
+  <style>
+    text{font-family:Arial,'PingFang SC','Microsoft YaHei',sans-serif;fill:#383934}
+    .serif{font-family:'Bodoni 72',Georgia,'Times New Roman',serif;font-weight:400;letter-spacing:-4px}
+    .small{font-size:23px;letter-spacing:2px}
+    .label{font-size:28px}
+    .note{font-size:20px;fill:#79786f;letter-spacing:1px}
+    .line{fill:none;stroke:#536e85;stroke-width:2}
+    .faint{fill:none;stroke:#bcb9b0;stroke-width:1.4}
+    .copper{fill:#a96845}
+    .blue{fill:#536e85}
+    .paper{fill:#f8f7f3;stroke:#8f9389;stroke-width:1.6}
+  </style>
+</defs>
+<rect width="1400" height="960" fill="#f8f7f3"/>
+<rect width="1400" height="960" filter="url(#grain)" opacity=".035"/>
+<path class="faint" opacity=".48" d="M1067 -60C958 113 1205 103 1282 226S1212 399 1450 398M-88 710C130 644 11 846 175 1008"/>
+<text x="90" y="92" class="small">字节跳动 · 豆包电商</text>
+<text x="1308" y="92" class="small" text-anchor="end">01 / WORKS</text>
+<text x="86" y="221" class="serif" font-size="116">Memory</text>
+<path d="M92 260H1308" class="faint"/>
+<text x="94" y="310" class="note">让购物回答结合用户信息，给出明确建议</text>
+<rect x="114" y="377" width="405" height="75" rx="37.5" class="paper"/>
+<text x="150" y="424" class="note">01</text><text x="220" y="424" class="label">当前输入</text>
+<path d="M519 414.5C690 414.5 709 570 890 570" class="line" marker-end="url(#arrow)" opacity="0.95"/><rect x="114" y="481" width="405" height="75" rx="37.5" class="paper"/>
+<text x="150" y="528" class="note">02</text><text x="220" y="528" class="label">上下文</text>
+<path d="M519 518.5C690 518.5 709 570 890 570" class="line" marker-end="url(#arrow)" opacity="0.77"/><rect x="114" y="585" width="405" height="75" rx="37.5" class="paper"/>
+<text x="150" y="632" class="note">03</text><text x="220" y="632" class="label">长期记忆</text>
+<path d="M519 622.5C690 622.5 709 570 890 570" class="line" marker-end="url(#arrow)" opacity="0.59"/><rect x="114" y="689" width="405" height="75" rx="37.5" class="paper"/>
+<text x="150" y="736" class="note">04</text><text x="220" y="736" class="label">关联画像</text>
+<path d="M519 726.5C690 726.5 709 570 890 570" class="line" marker-end="url(#arrow)" opacity="0.4099999999999999"/>
+<circle cx="1052" cy="570" r="151" class="faint"/><circle cx="1052" cy="570" r="135" class="line" stroke-dasharray="2 10"/>
+<circle cx="1052" cy="419" r="7" class="copper"/>
+<text x="1052" y="559" font-size="37" text-anchor="middle">个性化建议</text>
+<text x="1052" y="602" class="note" text-anchor="middle">即时意图优先</text>
+<path d="M1232 512l9 18 19 3-14 14 4 20-18-10-18 10 4-20-14-14 19-3z" fill="none" stroke="#a96845" stroke-width="1.5"/>
+
+<path d="M92 860H1308" class="faint"/>
+<text x="94" y="906" class="small" font-size="21">多源信息 · 记忆策略 · 个性化回答</text>
+<text x="1306" y="906" class="note" text-anchor="end">机制示意 ↗</text>
+</svg>
