@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="960" viewBox="0 0 1400 960" role="img" aria-labelledby="title desc">
+<title id="title">2D / 3D · 哈啰 · 智能驾驶</title><desc id="desc">感知数据标注平台的需求与流程设计（协助）。产品机制示意。</desc>
+<defs>
+  <filter id="grain"><feTurbulence type="fractalNoise" baseFrequency=".72" numOctaves="3" stitchTiles="stitch"/><feColorMatrix type="saturate" values="0"/></filter>
+  <marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto" markerUnits="userSpaceOnUse"><path d="M1 1L8 5L1 9" fill="none" stroke="#536e85" stroke-width="1.5"/></marker>
+  <style>
+    text{font-family:Arial,'PingFang SC','Microsoft YaHei',sans-serif;fill:#383934}
+    .serif{font-family:'Bodoni 72',Georgia,'Times New Roman',serif;font-weight:400;letter-spacing:-4px}
+    .small{font-size:23px;letter-spacing:2px}
+    .label{font-size:28px}
+    .note{font-size:20px;fill:#79786f;letter-spacing:1px}
+    .line{fill:none;stroke:#536e85;stroke-width:2}
+    .faint{fill:none;stroke:#bcb9b0;stroke-width:1.4}
+    .copper{fill:#a96845}
+    .blue{fill:#536e85}
+    .paper{fill:#f8f7f3;stroke:#8f9389;stroke-width:1.6}
+  </style>
+</defs>
+<rect width="1400" height="960" fill="#f8f7f3"/>
+<rect width="1400" height="960" filter="url(#grain)" opacity=".035"/>
+<path class="faint" opacity=".48" d="M1067 -60C958 113 1205 103 1282 226S1212 399 1450 398M-88 710C130 644 11 846 175 1008"/>
+<text x="90" y="92" class="small">哈啰 · 智能驾驶</text>
+<text x="1308" y="92" class="small" text-anchor="end">04 / WORKS</text>
+<text x="86" y="221" class="serif" font-size="116">2D / 3D</text>
+<path d="M92 260H1308" class="faint"/>
+<text x="94" y="310" class="note">感知数据标注平台的需求与流程设计（协助）</text>
+
+<g class="line" stroke-linejoin="round">
+  <path d="M222 440L461 358L700 451L461 543Z"/><path d="M222 440V672L461 781L700 679V451M461 543V781"/>
+  <path d="M222 672L461 586L700 679M461 358V586" stroke-dasharray="8 10" opacity=".45"/>
+</g>
+<g fill="#a96845"><circle cx="222" cy="440" r="6"/><circle cx="461" cy="358" r="6"/><circle cx="700" cy="451" r="6"/><circle cx="461" cy="543" r="6"/><circle cx="222" cy="672" r="6"/><circle cx="461" cy="781" r="6"/><circle cx="700" cy="679" r="6"/></g>
+<path d="M746 566H812" class="line" stroke-dasharray="5 8"/>
+<rect x="839" y="414" width="337" height="294" rx="3" class="faint"/>
+<path d="M855 433H893M855 433V471M1160 433H1122M1160 433V471M855 691H893M855 691V653M1160 691H1122M1160 691V653" class="line" stroke-width="4"/>
+<rect x="933" y="489" width="139" height="144" rx="4" fill="#dce3e0" stroke="#536e85" stroke-width="1.5"/>
+<path d="M839 561H1176M1007 414V708" class="faint" stroke-dasharray="4 8"/>
+<circle cx="1007" cy="561" r="6" class="copper"/>
+<text x="1007" y="755" class="note" text-anchor="middle">作业 · 质检 · 验收</text>
+
+<path d="M92 860H1308" class="faint"/>
+<text x="94" y="906" class="small" font-size="21">联合标注 · 项目与模板管理 · 质量指标</text>
+<text x="1306" y="906" class="note" text-anchor="end">机制示意 ↗</text>
+</svg>
